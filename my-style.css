@@ -3,3 +3,7 @@ ul li .instagram:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+img{
+    width: 350px;
+}
