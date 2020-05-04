@@ -3,7 +3,20 @@ ul li .instagram:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+#circle{
+    background-color: red;
+    color: red;
+}
 img{
     width: 350px;
+}
+.gmail:hover{
+    color: rgba(215,9,11,0.75);
+}
+.phone:hover{
+    color: rgba(128,181,71,0.75)!important;
+}
+
+.avatar {
+    width: 180px;
 }
