@@ -3,10 +3,63 @@ ul li .instagram:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#circle{
-    background-color: red;
-    color: red;
+.text-description{
+    transition: 1s;
+    opacity: 0%;
+    margin-left: 1.7em!important;
 }
+input {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.exams{
+    opacity: 0%;
+    display: none;
+}
+
+label{
+    display: block;
+    height: auto;
+    margin: 0 0 0 0!important;
+}
+
+.prompt i {
+    transform: rotate(90deg);
+}
+.timeline {
+    font-size: 1.2em;
+}
+.timeline small{
+    font-size: 1em;
+}
+input[type=checkbox]:checked+label i,input[type=checkbox]:not(:checked)+label i{
+    transform: rotate(90deg)!important;
+    margin: 0!important;
+    font-size: 2em;
+    transition: 0.5s;
+}
+input[type=checkbox]:checked + label i{
+    font-size: 2em;
+    transform: rotate(180deg)!important;
+    margin: 1px!important;
+
+}
+input[type=checkbox]:checked~.text-description{
+    opacity: 100%;
+}
+
+input[type=checkbox]:checked~.exams{
+    opacity: 100%;
+    display: block;
+}
+.context {
+    font-size: .9em;
+    margin-left: 2rem;
+}
+
+
 img{
     width: 350px;
 }

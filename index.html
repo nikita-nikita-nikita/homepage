@@ -14,13 +14,7 @@
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
-                  <svg viewBox="0 0 120 120" version="1.1"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="60" cy="60" r="50"/>
-                    <img src="media/avatar.jpg" class="avatar">
-                  </svg>
-                  <circle r="49.55"cx="49.55" cy="77.85"></circle>
-
+                <img src="media/avatar.jpg" class="avatar">
               </div>
               <div class="thirteen wide column">
                 <div class="stackable grid">
@@ -64,30 +58,44 @@
             </div>
             <div class="row">
               <div class="ten wide column">
+                <h2>Timeline</h2>
+                <p class="prompt">Prompt: click <i class="fas fa-caret-up"></i> to hide</p>
                 <ul class="timeline">
-                  <li>
-                    <p><small>2008 1<sup>st</sup> September</small></p>
-                    <p>I went to school</p>
+                  <li class="description">
+                    <input type="checkbox" id="0" checked="checked"><label style="margin: 0" for="0"><i class="fas fa-caret-up"></i> <small>2002 29<sup>th</sup> September</small></label>
+                    <p class="text-description">Born in <a href="https://www.google.com/maps/place/%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.401699,30.252512,10z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4501!4d30.5234">Kiev</a></p>
                   </li>
-                  <li>
-                    <p><small>2017</small></p>
-                    <p>Started learning programming</p>
+                  <li class="description">
+                    <input type="checkbox" id="1" checked="checked"><label style="margin: 0" for="1"><i class="fas fa-caret-up"></i> <small>2008 1<sup>st</sup> September</small></label>
+                    <p class="text-description">I went to school</p>
                   </li>
-                  <li>
-                    <p><small>2019 MAY</small></p>
-                    <p>Passed External Peer Review (ЗНО - українською)</p>
+                  <li class="description">
+                    <input type="checkbox" id="2" checked="checked"><label style="margin: 0" for="2"><i class="fas fa-caret-up"></i> <small>2017</small></label>
+                    <p class="text-description">Started learning programming</p>
                   </li>
-                  <li>
-                    <p><small>2019 AUGUST</small></p>
-                    <p>Enterned the KPI</p>
+                  <li class="description">
+                    <input type="checkbox" id="3" checked="checked"><label style="margin: 0" for="3"><i class="fas fa-caret-up"></i> <small>2019 MAY</small></label>
+                    <p class="text-description">Passed External Peer Review (ЗНО - українською)</p>
+                    <div class="context">
+                      <input type="checkbox" id="exams"><label style="margin: 0" for="exams"><i class="fas fa-caret-up"></i> <small>Exams</small></label>
+                      <div class="exams">
+                        <p > 1 : Math</p>
+                        <p > 2 : Ukrainian</p>
+                        <p > 3 : Physics</p>
+                      </div>
+                    </div>
                   </li>
-                  <li>
-                    <p><small>2020 APRIL</small></p>
-                    <p>Passed Binary Studio Academy test.</p>
+                  <li class="description">
+                    <input type="checkbox" id="4" checked="checked"><label style="margin: 0" for="4"><i class="fas fa-caret-up"></i> <small>2019 AUGUST</small></label>
+                    <p class="text-description">Enterned the <a href="https://kpi.ua/">KPI</a></p>
+                  </li >
+                  <li class="description">
+                    <input type="checkbox" id="5" checked="checked"><label style="margin: 0" for="5"><i class="fas fa-caret-up"></i> <small>2020 APRIL</small></label>
+                    <p class="text-description">Passed <a href="https://study.binary-studio.com/">Binary Studio Academy</a> test.</p>
                   </li>
-                  <li>
-                    <p><small>NOW</small></p>
-                    <p>Hope, that I will pass the second stage!</p>
+                  <li class="description">
+                    <input type="checkbox" id="6" checked="checked"><label style="margin: 0" for="6"><i class="fas fa-caret-up"></i> <small>NOW</small></label>
+                    <p class="text-description">Hope, that I will pass the second stage!</p>
                   </li>
                 </ul>
               </div>
